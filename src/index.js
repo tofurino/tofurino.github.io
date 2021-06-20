@@ -20,7 +20,7 @@ ReactDOM.render(
 				<Route path="/MultiMC">
 					<MultiMC />
 				</Route>
-				<Route path="FTB">
+				<Route path="/FTB">
 					<FTB />
 				</Route>
 			</Switch>
