@@ -1,11 +1,11 @@
-import './MultiMC.css';
-import MultiMCJava from '../assets/MultiMCJava.png';
-import MultiMCJavaSettings from '../assets/MultiMCJavaSettings.png';
-import MultiMCProfiles from '../assets/MultiMCProfiles.png';
+import './guide.css';
+import MultiMCJava from '../assets/MultiMC/MultiMCJava.png';
+import MultiMCJavaSettings from '../assets/MultiMC/MultiMCJavaSettings.png';
+import MultiMCProfiles from '../assets/MultiMC/MultiMCProfiles.png';
 
 function MultiMC() {
     return (
-        <div className="multiMC">
+        <div className="page">
             <div className="body">
                 <div className="banner">MultiMC Setup</div>
 
