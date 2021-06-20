@@ -1,9 +1,10 @@
 .Header {
     position: fixed;
+    top: 0;
     z-index: 5;
     height: 60px;
     width: 100%;
-    background-color: #b7808b;
+    background-color: #B7808B;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
 }
