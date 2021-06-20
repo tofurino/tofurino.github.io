@@ -28,7 +28,7 @@ function Home() {
 						<a href="/CurseForge">
 							<div className="guide-card-title">CurseForge / zip / All The Mods 6</div>
 						</a>
-						<div className="guide-card-description">A guide for downloading CurseForge or zip modpacks, using ATM 6, a HUGE modpack for Minecraft 1.16.5</div> as an example.
+						<div className="guide-card-description">A guide for downloading CurseForge or zip modpacks, using ATM 6, a HUGE modpack for Minecraft 1.16.5 as an example.</div>
 						<div className="guide-card-tags">MC version: 1.16.5 | Modding API: Forge (applies to ATM 6 only)</div>
 					</div>
 
