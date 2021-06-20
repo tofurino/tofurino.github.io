@@ -32,7 +32,7 @@ function MultiMC() {
                     <div>If it is unable to detect javaw after installation, manual navigation to the directory folder will be required. Javaw.exe will likely be found in Program Files\Java\jre1.8.0_281\bin.</div>
                     <br />
                     <div>For memory allocation, depending on how much RAM is available on your system, feel free to assign more to the maximum memory allocation.</div>
-                    <div>Modpacks usually require more RAM (>4096MB, check the modpack page for instructions), but make sure to leave enough RAM for your other processes as Minecraft will make full use of the memory allocated to it.</div>
+                    <div>Modpacks usually require more RAM (&gt 4096MB, check the modpack page for instructions), but make sure to leave enough RAM for your other processes as Minecraft will make full use of the memory allocated to it.</div>
                     <br />
                     <div>These settings can be changed globally (across all instances) or for individual instances under the Java tab.</div>
                     <img className="image" src={MultiMCJavaSettings} />
