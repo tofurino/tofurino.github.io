@@ -3,7 +3,6 @@ import './Home.css';
 function Home() {
   	return (
     	<div className="home">
-
       		<div className="body">
 
 				<div className="banner">Installation guides</div>
