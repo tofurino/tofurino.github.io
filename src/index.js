@@ -6,7 +6,8 @@ import Header from './components/Header.js';
 import Home from './pages/Home.js';
 import MultiMC from './pages/MultiMC.js';
 import FTB from './pages/FTB.js';
-import CurseForge from './pages/CurseForge.js'
+import CurseForge from './pages/CurseForge.js';
+import BetterMC from './pages/BetterMC';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -26,6 +27,10 @@ ReactDOM.render(
 				</Route>
 				<Route path="/CurseForge">
 					<CurseForge />
+				</Route>
+				<Route path="/1.17">
+					<BetterMC />
+
 				</Route>
 			</Switch>
     	</BrowserRouter>

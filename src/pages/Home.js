@@ -33,13 +33,13 @@ function Home() {
 					</div>
 
 					<div className="guide-card">
-						<a href="/BetterMC">	
-							<div className="guide-card-title">Better Minecraft [Fabric] 1.17</div>
+						<a href="/1.17">	
+							<div className="guide-card-title">1.17 / Better Minecraft [Fabric] 1.17</div>
 						</a>
-						<div className="guide-card-description">Minecraft, but better!</div>
+						<div className="guide-card-description">A guide for playing Minecraft 1.17, or any modpack that uses Minecraft 1.17, using Better Minecraft, Fabric 1.17 version. Minecraft, but better!</div>
 						<br />
 						<div className="guide-card-description">Take note that Minecraft 1.17 is still very new. Other than some new biomes and some QOL mods, this modpack is still very new.</div>
-						<div className="guide-card-tags">MC version: 1.17 | Modding API: Fabric</div>
+						<div className="guide-card-tags">MC version: 1.17 | Modding API: Fabric (applies to Better Minecraft 1.17 Fabric version only)</div>
 					</div>
 				</div>
 				
