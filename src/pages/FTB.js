@@ -16,7 +16,7 @@ function FTB() {
                     <div id="2" className="step">Step 2: Add Instance</div>
                     <div>Click on the 'Add Instance' button on the top left of the window</div>
                     <br />
-                    <div>Search for your modpack under the FTB tab, select the version, and click OK.</div>
+                    <div>Search for your modpack under the FTB tab, select the version (the latest version should be selected by default), and click OK. </div>
                     <img className="image" src={FTBInstance} />
 
                     <div id="3" className="step">Step 3: Modpack setup</div>
