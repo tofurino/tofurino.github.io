@@ -30,7 +30,6 @@ ReactDOM.render(
 				</Route>
 				<Route path="/1.17">
 					<BetterMC />
-
 				</Route>
 			</Switch>
     	</BrowserRouter>
