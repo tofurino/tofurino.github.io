@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.css';
 import Header from './components/Header.js';
-import Home from './pages/Home';
-import MultiMC from './pages/MultiMC'
+import Home from './pages/Home.js';
+import MultiMC from './pages/MultiMC.js';
+import FTB from './pages/FTB.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -18,6 +19,9 @@ ReactDOM.render(
 				</Route>
 				<Route path="/MultiMC">
 					<MultiMC />
+				</Route>
+				<Route path="FTB">
+					<FTB />
 				</Route>
 			</Switch>
     	</BrowserRouter>

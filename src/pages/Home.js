@@ -18,11 +18,11 @@ function Home() {
 					</div>
 
 					<div className="guide-card">
-						<a href="/FTB-Endeavour">	
-							<div className="guide-card-title">FTB Endeavour</div>
+						<a href="/FTB">	
+							<div className="guide-card-title">FTB / FTB Endeavour</div>
 						</a>
-						<div className="guide-card-description">FTB's general all-purpose modpack for Minecraft 1.16</div>
-						<div className="guide-card-tags">MC version: 1.16.5 | Modding API: Forge</div>
+						<div className="guide-card-description">A guide for downloading FTB modpacks, using FTB's general all-purpose modpack for Minecraft 1.16, FTB Endeavour, as an example.</div>
+						<div className="guide-card-tags">MC version: 1.16.5 | Modding API: Forge (apply to FTB Endeavour only)</div>
 					</div>
 
 					<div className="guide-card">
