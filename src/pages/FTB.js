@@ -1,11 +1,12 @@
 import './guide.css';
+import PageBottomNavigation from '../components/PageBottomNavigation.js';
 import FTBInstance from '../assets/FTB/FTBInstance.png';
 
 function FTB() {
     return(
         <div className="page">
             <div className="body">
-                <div className="banner">FTB / FTB Endeavour</div>
+                <div id="top" className="banner">FTB / FTB Endeavour</div>
 
                 <div className="content">
                     <div id="1" className="step">Step 1: Downloading MultiMC</div>
@@ -24,6 +25,8 @@ function FTB() {
                     <br />
                     <div>Once the instance is ready, double click it to play. It'll take a while for the Forge Mod Loader to set everything up. Yes it'll take quite a while. Yes. You have to wait this much every time you start the instance up. </div>
                 </div>
+
+                <PageBottomNavigation />
             </div>
         </div>
     )

@@ -1,4 +1,5 @@
 import './guide.css';
+import PageBottomNavigation from '../components/PageBottomNavigation.js';
 import MultiMCJava from '../assets/MultiMC/MultiMCJava.png';
 import MultiMCJavaSettings from '../assets/MultiMC/MultiMCJavaSettings.png';
 import MultiMCProfiles from '../assets/MultiMC/MultiMCProfiles.png';
@@ -7,7 +8,7 @@ function MultiMC() {
     return (
         <div className="page">
             <div className="body">
-                <div className="banner">MultiMC Setup</div>
+                <div id="top" className="banner">MultiMC Setup</div>
 
                 <div className="content">
                     <div id="1" className="step">Step 1: Downloading MultiMC</div>
@@ -47,6 +48,8 @@ function MultiMC() {
                     <br />
                     <div>View the <a href="/">other guides</a> for help on installing modpacks.</div>
                 </div>
+
+                <PageBottomNavigation />
             </div>
         </div>
     )

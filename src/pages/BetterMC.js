@@ -1,4 +1,5 @@
 import './guide.css';
+import PageBottomNavigation from '../components/PageBottomNavigation.js';
 import BetterMCVanilla from '../assets/BetterMC/BetterMCVanilla.png';
 import BetterMCSettings from '../assets/BetterMC/BetterMCSettings.png'; 
 
@@ -6,7 +7,7 @@ function BetterMC() {
     return(
         <div className="page">
             <div className="body">
-                <div className="banner">1.17 / Better Minecraft Fabric Version</div>
+                <div id="top" className="banner">1.17 / Better Minecraft Fabric Version</div>
 
                 <div className="content">
                     <div id="1" className="step">Step 1: Downloading MultiMC</div>
@@ -37,6 +38,8 @@ function BetterMC() {
                     <br />
                     <div>If you're playing Better Minecraft 1.17 Fabric version, have fun not waiting. Unlike the previous Forge modpacks, Fabric does not require long wait times:></div>
                 </div>
+
+                <PageBottomNavigation />
             </div>
         </div>
     )

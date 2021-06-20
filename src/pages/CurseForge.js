@@ -1,5 +1,6 @@
 import './guide.css';
 import CurseForgeFiles from '../assets/CurseForge/CurseForgeFiles.png';
+import PageBottomNavigation from '../components/PageBottomNavigation.js';
 import CurseForgeDownload from '../assets/CurseForge/CurseForgeDownload.png';
 import CurseForgeZip from '../assets/CurseForge/CurseForgeZip.png';
 import CurseForgeInstance from '../assets/CurseForge/CurseForgeInstance.png';
@@ -12,7 +13,7 @@ function CurseForge() {
     return(
         <div className="page">
             <div className="body">
-                <div className="banner">CurseForge/ zip / ATM 6</div>
+                <div id="top" className="banner">CurseForge/ zip / ATM 6</div>
 
                 <div className="content">
                     <div id="1" className="step">Step 1: Downloading MultiMC</div>
@@ -57,6 +58,8 @@ function CurseForge() {
                     <br />
                     <div>Once the instance is ready, double click it to play. It'll take a while for the Forge Mod Loader to set the session up. Yes it'll take quite a while. Yes. You'll have to wait this much every time you start the instance. </div>
                 </div>
+                
+                <PageBottomNavigation />
             </div>
         </div>
     )

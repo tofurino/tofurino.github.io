@@ -1,0 +1,18 @@
+.navigation-wrapper {
+	position: relative;
+	width: 100%;
+	font-family: 'Share Tech Mono';
+	font-size: 15px;
+	color: #FFCDB3;
+}
+
+.back {
+	display: inline-block;
+}
+
+.top {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
