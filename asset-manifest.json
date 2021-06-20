@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b32aed83.chunk.css",
+    "main.js": "/static/js/main.b1ab3af7.chunk.js",
+    "main.js.map": "/static/js/main.b1ab3af7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a5e7d12c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a5e7d12c.js.map",
+    "static/js/2.66a899e2.chunk.js": "/static/js/2.66a899e2.chunk.js",
+    "static/js/2.66a899e2.chunk.js.map": "/static/js/2.66a899e2.chunk.js.map",
+    "static/js/3.4f9065c7.chunk.js": "/static/js/3.4f9065c7.chunk.js",
+    "static/js/3.4f9065c7.chunk.js.map": "/static/js/3.4f9065c7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b32aed83.chunk.css.map": "/static/css/main.b32aed83.chunk.css.map",
+    "static/js/2.66a899e2.chunk.js.LICENSE.txt": "/static/js/2.66a899e2.chunk.js.LICENSE.txt",
+    "static/media/BetterMCSettings.13c5c78c.png": "/static/media/BetterMCSettings.13c5c78c.png",
+    "static/media/BetterMCVanilla.b30fbcb6.png": "/static/media/BetterMCVanilla.b30fbcb6.png",
+    "static/media/CurseForgeDownload.dd55d292.png": "/static/media/CurseForgeDownload.dd55d292.png",
+    "static/media/CurseForgeFiles.547223d0.png": "/static/media/CurseForgeFiles.547223d0.png",
+    "static/media/CurseForgeInstance.5ee3ff9a.png": "/static/media/CurseForgeInstance.5ee3ff9a.png",
+    "static/media/CurseForgeZip.fb2787fa.png": "/static/media/CurseForgeZip.fb2787fa.png",
+    "static/media/FTBInstance.d4ee36f1.png": "/static/media/FTBInstance.d4ee36f1.png",
+    "static/media/MultiMCJavaSettings.d7ba5876.png": "/static/media/MultiMCJavaSettings.d7ba5876.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5e7d12c.js",
+    "static/js/2.66a899e2.chunk.js",
+    "static/css/main.b32aed83.chunk.css",
+    "static/js/main.b1ab3af7.chunk.js"
+  ]
+}
