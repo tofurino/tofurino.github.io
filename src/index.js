@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.css';
-import Home from './Home';
 import Header from './components/Header.js';
+import Home from './pages/Home';
+import MultiMC from './pages/MultiMC'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -15,7 +16,9 @@ ReactDOM.render(
 				<Route exact path="/">
 					<Home />
 				</Route>
-
+				<Route path="/MultiMC">
+					<MultiMC />
+				</Route>
 			</Switch>
     	</BrowserRouter>
   	</React.StrictMode>,

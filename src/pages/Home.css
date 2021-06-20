@@ -22,6 +22,7 @@
 	height: 300px;
 	font-family: 'Share Tech Mono';
 	font-size: 60px;
+	text-align: center;
 	color: white;
 }
 
@@ -53,4 +54,19 @@
 	bottom: 0;
 	font-size: 15px;
 	color: rgba(256, 256, 256, 0.6);
+}
+
+a:link {
+	color: #FFCDB3;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFB6A3;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #E6989B;
+	text-decoration: underline;
 }
