@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   	<React.StrictMode>
-    	<BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
+    	<BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
 			<Header />
 
       		<Switch>

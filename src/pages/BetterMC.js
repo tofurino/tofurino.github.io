@@ -36,7 +36,7 @@ function BetterMC() {
                     <img className="image" src={BetterMCSettings} />
                     <div>Click 'Launch' on the bottom right of the window and it should start up using Java 16.</div>
                     <br />
-                    <div>If you're playing Better Minecraft 1.17 Fabric version, have fun not waiting. Unlike the previous Forge modpacks, Fabric does not require long wait times:></div>
+                    <div>If you're playing Better Minecraft 1.17 Fabric version, have fun not waiting. Unlike the previous Forge modpacks, Fabric does not require long wait times:&gt;</div>
                 </div>
 
                 <PageBottomNavigation />
