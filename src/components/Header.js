@@ -4,7 +4,9 @@ import './Header.css';
 function Header() {
     return(
         <div className="Header">
-            <img className="logo" src={logo} alt="TOFURINO"/>
+            <a href="/">
+                <img className="logo" src={logo} alt="TOFURINO"/>
+            </a>
         </div>
     )
 }
