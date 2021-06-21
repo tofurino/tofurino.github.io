@@ -24,7 +24,7 @@
 }
 
 .content {
-    width: 100%;
+    max-width: 100%;
 	font-family: 'Share Tech Mono';
 	color: white;
     font-size: 17px;
@@ -39,6 +39,7 @@
 
 .image {
     margin: 20px;
+	max-width: 90%;
 }
 
 .jump {
@@ -55,4 +56,18 @@
 	width: 80%;
 	background-color: #E6989B;
 	margin: 10%;
+}
+
+@media (max-width: 600px) {
+	.body {
+		padding: 20px;
+	}
+
+	.banner {
+		font-size: 40px;
+	}
+
+	.content {
+		padding: 20px;
+	}
 }
