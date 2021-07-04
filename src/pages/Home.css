@@ -2,8 +2,9 @@
 
 .home {
 	display: flex;
+	min-height: 100vh;
 	justify-content: center;
-  	background-color: #6B6477
+  	background-color: #6B6477;
 }
 
 .body {
